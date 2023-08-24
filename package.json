@@ -1,0 +1,21 @@
+{
+  "name": "passportinliveclasses",
+  "version": "1.0.0",
+  "description": "passport",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SHIKHA NIGAM",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
